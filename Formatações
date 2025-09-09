@@ -1,0 +1,14 @@
+###Uso de format:
+
+→ usado para formatação no print. 
+
+as variáveis ficam entre chaves, para formatação de casa decimais basta usar **variavel:.qtd de casas decimaisf** <- esse f é de float, enquanto o primeiro f é de format.
+
+```python
+print(f"Numero de cópias: { copias}\nTotal a ser pago: R$ {total:.2f}")
+```
+
+###If ternario:
+
+ordem do comando é a seguinte -> o que deve ser printado na tela caso a condição seja real, condição, else, print o que deve aparecer caso atenda o else
+print(valor1,"é maior!") if valor1 > valor2 else print(valor2,"é maior!")
